@@ -1,16 +1,16 @@
 import 'core-js/shim';
 
-export default class Person{
+export default class Person {
 
-    constructor(name){
+    constructor(name) {
         this.name = name;
     }
 
-    sayHello(){
+    sayHello() {
         return `Hello ${this.name}`;
     }
 
-    sayHelloThreeTime(){
+    sayHelloThreeTime() {
         let hello = this.sayHello();
         return `${hello}`.repeat(3);
     }
